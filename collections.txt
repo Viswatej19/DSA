@@ -1,0 +1,40 @@
+DSA
+Arrays (int arr , add array , charAt , indexOf , for loops , if , else, String s  = new String(arr); ) 
+Collections
+	ArrayList ( To intitalize ArrayList<Integer>list=new ArrayList<Integer>(10); == int arr[] = new int[10];)
+		  ( To add elements list.add(sc.nextInt()) To print some random index element list.get(3); isEmpty
+		  (if(list.isEmpty()){return 0;} list.remove(5); string="nikshays bestfrnd is viswa" list.remove("viswa"))
+		  ( list.set(0,7) 12345->72345 , list.add(2,8) 12345->128345 (To insert) )
+		  ( for-each loop -> ArrayList<String>list=new ArrayList<String>()  for(String temp:list){sop(temp)} 
+	          (String s  = new String(arr); If we need to add all elements of array to a arraylist then we'll do
+                  (Collections.addAll(list,arr)  okavela arr[]={1,4,5,6} to print sop(list) or by for each )
+		  ( list.get(i) for normal for loop(int i=0;i<list.size();i++) ch.length , str.length())
+		  (If anything else google)
+
+	Set        Unique gaa untayi em unna
+
+	HashSet	  operations same as of arraylist. random adding of the given elements no correct index order.so we cannot remove
+   		  by index.so to remove the function is HashSet<Integer>set=new HashSet<Integer>(10); {2,6,7,4,5} set.remove(4) {2,6,7,5}
+		  *-> If we want the set to be in order we need to use linkedHashSet.
+		  Using LinkedHashSet LinkedHashSet<Integer>lset=new LinkedHashSet<Integer>(10); + unique values 
+		  ex:1223425 for(Integer temp:lset){sop(temp)} output : 12345.
+                  *->TreeSet ascending order 
+		  ex:4529012 for(............................} output : 012459.
+		  String:bcba linked hashset bca , treeset abc , hashset bca,abc,cba..
+			
+
+				For HashSet , LinkedHashSet , TreeSet , ArrayList one common method there
+				Set.contains(value ivvali not index),list.contains(value ivvali)
+				
+ 			
+	Map	Dictonary loo unique unadchu or undakpovachu values but key always unique.
+
+	HashMap  HashMap<Integer,String>map = new HashMap<>(); add badhulu put ->map.put(1,"viswa") ,map.put(2,"betrayel")
+							       get goes    get ->map.get(1)
+							       remove goes remove->map.remove(2)
+		For each loop for(Map.Entry temp:map.entrySet()){sop(temp.getKey()+temp.getValue())}
+		map.put(1,map.getOrDefault(1,"")+"nikshay")
+		String s = "21"
+		
+		*-> LinkedHashMap  
+		*-> TreeMap 
